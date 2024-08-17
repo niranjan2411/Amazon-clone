@@ -28,9 +28,7 @@
     height: 30px;
     width: 100px;
 }
-.logo{
-    background-image: url("log.png");
-    background-size: cover;
+.logo img{
     height: 100%;
     width: 100%;
 }
@@ -60,18 +58,18 @@
 .deliver{
     font-size: 10px;
     color:rgba(255, 255, 255, 0.793);
+    margin-bottom:0px;
+    margin-top: 15px;
 }
 .location{
     font-weight: 700;
 }
 .nav-mid{
-    height: 40px;
+    height: 100%px;
     width: 820px;
     display:flex;
     margin-left: 14px;
     border: 2.5px solid transparent;
-
-
 }
 .nav-mid:active{
     border: 2.5px solid rgb(231, 146, 43);
@@ -93,6 +91,7 @@
     color: black;
 }
 .all p {
+    margin-bottom: 0px;
     font-size: 12px;
     padding: 0px 6px 0px 12px;
 }
@@ -111,11 +110,13 @@
 .search p{
     margin-left: 8px;
     font-size: 15px;
+    margin-bottom: 0px;
 }
 .isearch{
     height: 100%;
     width: 50px;
     margin-right: 0px;
+    margin-bottom: 0px;
     background-color: rgb(241, 177, 98);
     border-radius: 0px 3px 3px 0px;
     display: flex;
@@ -594,9 +595,9 @@
     text-decoration: none;
     color: rgb(51, 140, 140);
 }
-#sign-t2 a:hover{
+/* #sign-t2 a:hover{
     color:rgb(199, 122, 21);
-}
+} */
 .sign-in {
     display: flex;
     align-items: center;

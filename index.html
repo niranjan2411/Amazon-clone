@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Project</title>
     
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="nav-logo border" >
-                <div class="amazon-logo ">
-                    <div class="logo">
-                    </div>
+        <div class="navbar navbar-expand-lg container-fluid">
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
+            <div class="nav-logo" > 
+                <div class="logo">
+                    <img src="log.png"/>
                 </div>
             </div>
 
-            <div class="loc border">
+            <div class="loc ">
                 <i class="fa-regular fa-location-dot" style="color: #ffffff;"></i>
                 <div class="nav-loc">
-                <p class="deliver">Deliver to</p>
+                <p class="deliver" style="">Deliver to</p>
                 <p class="location">India</p>
                 </div>
             </div>
@@ -31,8 +36,9 @@
                     <p>All</p>
                     <i class="fa-solid fa-caret-down"></i>
                 </div>
+
                 <div class="search">
-                    <p>Search Amazon</p>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Amazon" aria-label="Search" style="height: 100%;">
                 </div>
                 <div class="isearch">
                     <div class="isearch-icon">
@@ -41,15 +47,15 @@
                 </div>
             </div>
             
-            <div class="flag border">
-                <p style="font-size: 20px;">🇮🇳</p>
-                <p>IN</p>
+            <div class="flag">
+                <p style="font-size: 20px;margin-bottom: 0px;">🇮🇳</p>
+                <p style="margin-bottom: 0px;">IN</p>
                 <i class="fa-solid fa-caret-down flag-dropdown"></i>
             </div>
 
-            <div class="account border">
+            <div class="account">
                 <div class="acc-sign">
-                    <p class="acc-p1">
+                    <p class="acc-p1" style="margin-bottom: 0px; margin-top: 24px;line-height: 0.5;">
                         Hello, sign in
                     </p>
                     <p class="acc-p2">
@@ -59,18 +65,18 @@
                 <i class="fa-solid fa-caret-down acc-dropdown"></i>
             </div>
 
-            <div class="return border">
+            <div class="return">
                 <div>
-                    <p class="nav-ret">
+                    <p class="nav-ret" style="margin-bottom: 0; line-height: 0.5; margin-top: 10px;">
                         Returns
                     </p>
-                    <p class="nav-order">
+                    <p class="nav-order" style="margin-bottom: 0px;">
                         & Orders
                     </p>
                 </div>
             </div>
 
-            <div class="cart border">
+            <div class="cart">
                 <i class="fa-regular fa-cart-shopping"></i>
                 <div>
                     <div class="cart-txt">
@@ -79,35 +85,37 @@
                 </div>
             </div>
 
+        </ul>    
+        </div>
         </div>
     </header>
 
     <main>
         <div class="main-body-web">
 
-            <div class="nav-second">
-                    <div class="c-item1 border">
+            <div class="nav-second" style="display:flex; align-items: center;">
+                    <div class="c-item1">
                         <i class="fa-solid fa-bars"></i>
-                        <p><a href="xyz" style="color:white; text-decoration: none; font-weight: 700">All</a></p>
+                        <p><a href="xyz" style="color:white; text-decoration: none; font-weight: 700; margin-bottom: 0;">All</a></p>
                     </div>
-                    <div class="c-item2 border">
+                    <div class="c-item2">
                         <p><a href="xyz" style="color:white; text-decoration: none" >Today's Deals</a></p>
                     </div>
-                    <div class="c-item3 border">
+                    <div class="c-item3">
                         <p><a href="xyz" style="color:white; text-decoration: none">Customer Service</a></p>
                     </div>
-                    <div class="c-item4 border">
+                    <div class="c-item4">
                         <p><a href="xyz" style="color:white; text-decoration: none" >Registry</a></p>
                     </div>
-                    <div class="c-item5 border">
+                    <div class="c-item5">
                         <p><a href="xyz" style="color:white; text-decoration: none">Gift Cards</a></p>
                     </div>
-                    <div class="c-item6 border">
+                    <div class="c-item6">
                         <p><a href="xyz" style="color:white; text-decoration: none">Sell</a></p>
                     </div>
             </div>
 
-            <div class="img-bg">
+            <div class="img-bg container-fluid">
                 <div class="warn-box">
                     <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="xyz"  >Click here to go to amazon.in</a></p>
                 </div>
@@ -116,7 +124,7 @@
             <div class="body-back-blur">
             </div>
 
-            <div class="body-content1">
+            <div class="body-content1 container-fluid">
                 <div class="body-content-box11 body-content-box-size">
                     <div class="b-c-box11">
                         <div>
@@ -444,6 +452,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
 </body>
